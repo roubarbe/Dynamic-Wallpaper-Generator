@@ -1,0 +1,16 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    background: #6f6f6f;
+}
+
+#topMenu{
+    background: #FFF;
+    float:left;
+    width: 100%;
+    padding: 10px;
+}
+
+#topMenu *{
+    float:left;
+}

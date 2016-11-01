@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Dynamic Wallpaper</title>
+        <link rel="stylesheet" href="main.css">
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <div id="topMenu">
+            <textarea id="textToShow" placeholder="Write text to include"></textarea>
+            <input type="text" id="imgWidth" placeholder="Width">
+            <input type="text" id="imgHeight" placeholder="Height">
+            <input type="text" id="fontSize" placeholder="Font Size">
+            <button id="generate" onclick="buildCanvas()">Generate</button>
+        </div>
+        <div id="content"></div>
+    </body>
+</html>
